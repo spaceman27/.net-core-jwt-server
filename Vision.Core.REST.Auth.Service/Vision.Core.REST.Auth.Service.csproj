@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+	  <DebugType>Full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common.Standard.REST" Version="7.8.1808.1501" />
+    <PackageReference Include="Common.Standard.REST.Interfaces" Version="7.8.1808.1501" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vision.Core.REST.Auth.Data\Vision.Core.REST.Auth.Data.csproj" />
+    <ProjectReference Include="..\Vision.Core.REST.Auth.DTO\Vision.Core.REST.Auth.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <PackageId>Vision.Core.REST.Auth.DTO</PackageId>
+    <PackageVersion>7.7.1805.2406</PackageVersion>
+    <Authors>ComNet Software</Authors>
+    <Description>Authentication DTOs</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) ComNet Software. All rights reserved.</Copyright>
+    <PackageTags>core standard dotnet core Core common REST DTO</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+	  <DebugType>Full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common.Standard.REST.DTO" Version="7.8.1808.1501" />
+  </ItemGroup>
+
+</Project>
